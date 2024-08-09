@@ -1,0 +1,37 @@
+.Parent-About{
+    .div-2 div {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+      
+      .div-2 div:hover {
+        transform: scale(1.05); /* Slight zoom effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        transition: all 0.3s ease-in-out;
+      }
+    h2{
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(131, 131, 131);
+    }
+    img{
+        width: 300px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .Parent-About{
+        h3{
+            font-size:16px;
+        }
+        h2{
+            font-size: 14px;
+        }
+        p{
+            font-size:10px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+.pBgColor{
+  background:#ffe3e3;
+}
+.drop-shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.circle {
+  border: 1px solid color;
+  border-radius: 100%;
+}
+h1{
+  font-weight: 800;
+}
+a{
+  color: #fc0000;
+  font-weight: 500;
+  transition: all 0.1s ease-in-out;
+}
+a:hover{
+  color: #000000;
+  transition: all 0.1s ease-in-out;
+}
